@@ -1,0 +1,94 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hero {
+    background: url('../public/images/code-1076536_1280.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    border-radius: 8px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #0070f3;
+    font-weight: bold;
+  }
+  
+  .section {
+    margin: 40px 0;
+  }
+  
+  .section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .projectsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .projectCard {
+    flex: 1 1 calc(33.333% - 20px);
+    background: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .projectCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projectImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .projectContent {
+    padding: 20px;
+  }
+  
+  .projectTitle {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .projectDescription {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .cta {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .cta a {
+    background-color: #0070f3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cta a:hover {
+    background-color: #005bb5;
+  }
+  

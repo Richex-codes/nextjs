@@ -1,0 +1,93 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero {
+  background: url("../public/images/programming-1857236_1280.jpg") no-repeat
+    center center/cover;
+  color: black;
+  text-align: center;
+  padding: 100px 20px;
+  border-radius: 8px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: white;
+  font-weight: 700;
+}
+
+.section {
+  margin: 40px 0;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.teamMember {
+  flex: 1 1 calc(33.333% - 20px);
+  text-align: center;
+}
+
+.teamMember img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.teamMember h3 {
+  font-size: 1.5rem;
+  margin: 10px 0 5px;
+}
+
+.teamMember p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.testimonials {
+  background: #f9f9f9;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.testimonial {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact a {
+  color: #0070f3;
+  text-decoration: none;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,124 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  background-color: black;
+  padding: 0 10px;
+  border-radius: 50px;
+  width: 15%;
+  transition: width 0.3s ease-in-out;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.grey {
+  color: #ababab;
+}
+
+.icon {
+  color: #00aced;
+}
+
+.p {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.iconContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.profileContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section2 .p {
+  color: #ababab;
+  font-size: 0.875rem;
+}
+
+.section2 {
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0; /* Adjust to a reasonable maximum height */
+  overflow: hidden; /* initial zoom out effect */
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
+
+.section3 {
+  height: 2rem;
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0;
+}
+.show {
+  opacity: 1;
+  visibility: visible;
+  max-height: 2rem; /* Adjust to a reasonable maximum height */
+  overflow: hidden; /* initial zoom out effect */
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
+}
+.show .icon {
+  color: white;
+  cursor: pointer;
+}
+
+.show .iconContainer {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  position: relative;
+}
+
+.show .iconContainer .p {
+  color: white;
+  font-size: 0.875rem;
+  margin: 0;
+
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out,
+    visibility 0.3s ease-in-out;
+}
+
+.iconContainer:hover .p {
+  opacity: 1;
+  visibility: visible;
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.show .container1 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
